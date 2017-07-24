@@ -19,10 +19,13 @@ y_data = [[152.], [185.], [180.] , [196.], [142.]]
 #x3 = tf.placeholder(tf.float32)
 #Y = tf.placeholder(tf.float32)
 
+print x_data
+print y_data
+
 """
 x data:
 총 데이터가 몇개가 들어올지 모르니 None
-그러나 변수가 5개인것은 정해졌으니 5로 fix
+그러나 변수가 3개인것은 정해졌으니 3로 fix
 """
 X = tf.placeholder(tf.float32 , shape = [None,3])
 Y = tf.placeholder(tf.float32, shape = [None,1])
