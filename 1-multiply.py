@@ -1,5 +1,9 @@
 #-*- coding: utf-8 -*-
-
+"""
+1. 그래프를 먼저 만든다
+2. sess.run  데이터를 입력하고 그래프를 실행한다
+3. 데이터를 업데이트시킨다.
+"""
 import tensorflow as tf
 #placeholder : 프로그램 실행 중에 값을 변경 할 수 있는 symbolic variable
 
